@@ -1,0 +1,8 @@
+Öncelikle Java application yarattık.
+
+.java dosyası ile aynı klasörde Dockerfile oluşturuyoruz.
+
+docker build -t hello-world-java .  komutu ile Docker Image build ediyoruz.
+
+docker run hello-world-java komutu ile containeri çalıştırıyoruz.
+
